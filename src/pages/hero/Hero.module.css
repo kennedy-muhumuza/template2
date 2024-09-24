@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .background-image {
@@ -15,11 +16,15 @@
 }
 
 .hero-content {
+  position: absolute;
+  top: 7rem;
   color: #fff;
 }
 
 .hero-content h1 {
   text-align: center;
+  font-size: 3rem;
+  line-height: 50px;
 }
 
 .hero-content p {
@@ -41,6 +46,7 @@
 }
 
 .details-container {
+  position: absolute;
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -50,6 +56,7 @@
   border-radius: 25px;
   padding: 0.3rem 0.5rem;
   width: auto;
+  top: 20rem;
 }
 
 .details-item {
@@ -60,4 +67,29 @@
 
 .guest-item {
   cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  gap: 3rem;
+  position: absolute;
+  top: 35rem;
+  /* left: 3rem; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: auto;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  line-height: 10px;
+  /* gap: 1rem; */
+}
+
+.card p:nth-child(1) {
+  font-size: 2rem;
 }

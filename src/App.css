@@ -4,7 +4,20 @@ body {
 
   margin: 0;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+}
 
+.header-hero-container {
+  margin-bottom: 3rem;
+  /* background-color: green; */
+  height: 45rem;
+}
+
+.main-content {
+  /* background-color: blue; */
+}
 :root {
   /* Indigo */
   --color-brand-50: #eef2ff;
