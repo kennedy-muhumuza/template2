@@ -16,7 +16,7 @@
 }
 
 .location-section-wrapper p {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .location-imageG1 {
@@ -37,7 +37,43 @@
   gap: 1rem;
 }
 
-.location-image-subcontainer {
+.location-image-subcontainer1 {
+  position: relative;
   display: flex;
   gap: 1rem;
+}
+
+.location-image-subcontainer2 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+
+.location-imageDesc1 {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  color: #fff;
+  opacity: 1;
+}
+
+.location-imageDesc2 {
+  position: absolute;
+  top: 10rem;
+  left: 25rem;
+  color: #fff;
+}
+
+.location-imageDesc3 {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  color: #fff;
+}
+
+.location-imageDesc4 {
+  position: absolute;
+  top: 10rem;
+  left: 26rem;
+  color: #fff;
 }
