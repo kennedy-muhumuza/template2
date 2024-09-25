@@ -1,6 +1,7 @@
 .location-title-container {
   display: flex;
   gap: 4rem;
+  /* background-color: green; */
 }
 
 .location-title {
