@@ -1,0 +1,14 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.services-container p {
+  opacity: 0.6;
+  line-height: 15px;
+}
+
+.package-title-container {
+  display: flex;
+}
