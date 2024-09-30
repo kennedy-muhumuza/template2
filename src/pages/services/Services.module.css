@@ -1,6 +1,7 @@
 .services-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 5rem;
 }
 
@@ -9,6 +10,96 @@
   line-height: 15px;
 }
 
+.package-img-container {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
 .package-title-container {
   display: flex;
+}
+
+.package-img1 {
+  height: 20rem;
+  width: auto;
+  border-radius: 1rem;
+}
+
+.date-price-cridentials-container1 {
+  background-color: var(--color-grey-600);
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  /* top: 15rem;
+  left: 1rem;
+  width: 25rem; */
+  top: 70%;
+  width: 90%;
+  left: 0.7rem;
+  color: #fff;
+}
+
+.date-price-cridentials-container2 {
+  background-color: var(--color-grey-600);
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  top: 70%;
+  left: 0.4rem;
+  width: 80%;
+  color: #fff;
+}
+
+.date-price-cridentials-container3 {
+  background-color: var(--color-grey-600);
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  top: 70%;
+  left: 0.4rem;
+  width: 80%;
+  color: #fff;
+}
+
+.date-price-cridentials-container1 p {
+  line-height: 5px;
+  font-size: 0.8rem;
+}
+
+.date-price-cridentials-container2 p {
+  line-height: 5px;
+  font-size: 0.8rem;
+}
+
+.date-price-cridentials-container3 p {
+  line-height: 5px;
+  font-size: 0.8rem;
+}
+
+.package-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package-img1container {
+  position: relative;
+}
+
+.package-img2container {
+  position: relative;
+}
+
+.package-img3container {
+  position: relative;
+}
+
+.view-more-btn {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 1rem;
+  padding: 0.6rem 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 3rem;
 }
