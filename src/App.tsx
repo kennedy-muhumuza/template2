@@ -6,6 +6,7 @@ import Header from "./pages/header/Header";
 import Hero from "./pages/hero/Hero";
 import Location from "./pages/location/Location";
 import Services from "./pages/services/Services";
+import Testimonials from "./pages/testimonials/Testimonials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Location />
         <About />
         <Services />
+        <Testimonials />
         <Blog />
         <Footer />
       </main>
